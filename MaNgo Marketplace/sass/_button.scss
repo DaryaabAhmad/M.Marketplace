@@ -48,7 +48,7 @@
     //     }
     // }
 
-    &--green {
+    &--login {
         
         background-color: rgba($color-primary-dark, 0.6) ;
         color: $color-white;
@@ -56,6 +56,7 @@
         &::after {
             background-color: rgba($color-primary-dark, 0.9);
         }
+        
     }
 
     &::after {
@@ -80,31 +81,9 @@
         animation-fill-mode: backwards;
     }
 
+    &__registrationbtn{
+        padding: .5rem 2rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
 }
-
-
-// .btn-text {
-
-//     &:link,
-//     &:visited {
-//         font-size: $default-font-size;
-//         color: $color-pri ;
-//         display: inline-block;
-//         text-decoration: none;
-//         border-bottom: 1px solid $color-pri;
-//         padding: 3px;
-//         transition: all .2s;
-//     }
-
-//     &:hover {
-//         background-color: $color-pri;
-//         color: $color-white;
-//         box-shadow: 0 1rem 2rem rgba($color-black, .15);
-//         transform: translateY(-2px);
-//     }
-
-//     &:active {
-//         box-shadow: 0 0.5rem 1rem rgba($color-black, .15);
-//         transform: translateY(0);
-//     }
-// }
